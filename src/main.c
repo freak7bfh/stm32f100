@@ -28,6 +28,7 @@ int main(){
 
 	DelayInit();
 	USARTInit();
+	function(); // mala zmiana :D
 
 
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
